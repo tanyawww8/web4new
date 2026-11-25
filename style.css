@@ -1,0 +1,27 @@
+/* Подключается после Bootstrap: только то, чего нет во фреймворке */
+
+/* Шапка и подвал — на всю ширину окна */
+#page-header,
+#page-footer {
+    width: 100%;
+    background-color: #729fcf;
+}
+
+#page-header {
+    border-bottom: 1px solid #3465a4;
+}
+
+#page-footer {
+    margin-top: 30px;
+    border-top: 1px solid #3465a4;
+}
+
+/* Меню */
+#main-menu .nav-link:hover {
+    background-color: #fff;
+}
+
+/* Содержимое — максимум 960px по центру */
+#content {
+    max-width: 960px;
+}
